@@ -1,0 +1,52 @@
+h1 {
+width: 100px;
+background-color: orange;
+border: 1px solid black;
+border-radius: 10px ;
+text-align: center;
+margin: auto;
+padding: 10px;
+opacity: 0.5;
+}
+
+.circle {
+
+width: 150px;
+height: 150px;
+margin: auto;
+border-radius: 50%;
+opacity: 0.5;
+transition: all 0.5;
+position: relative;
+}
+
+.circle:hover {
+opacity: 1;
+
+}
+
+
+
+#red {
+    background-color: red;
+    
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px 8px 10px #a10000;
+    
+}
+
+#yellow {background-color: yellow;
+    
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px 8px 10px #ffe733;
+      
+}
+#green {background-color: green;
+    
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px 8px 10px #15d818;
+      
+}
